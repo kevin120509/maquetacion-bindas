@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>projecto final</title>
+  <link rel="stylesheet" href="cajas.css">
+  <link rel="stylesheet" href="movil.css">
+  <link rel="stylesheet" href="animate.min.css">
+
+
+
+  <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+  <script src="responsiveslides.min.js"></script>
+
+  <!-- <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> -->
+  <link rel="stylesheet" href="css/animate.css">
+  <script src="wow.min.js"></script>
+</head>
+
+<body>
+  <!-- flecha hacia arriba -->
+  <div class="botonsubir" id="subir">
+    <i class="fa-solid fa-chevron-up"></i>
+  </div>
+ 
+   <!-- modal -->
+   <div class="fondomodal" id="todomodal">
+    <div class="contenedormodal">
+      <div class="contenedorcerrar">
+        <h2>titulo</h2>
+        <i class="fa-solid fa-circle-xmark" id="cerrar"></i>
+      </div>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor maiores ullam eligendi eaque quam quis. Dolorem
+        minima earum vero a ipsa numquam reprehenderit repellat vel repellendus, minus ullam natus optio.</p>
+      <br>
+      <a href="" class="btn_morado" id="cambiarcolor">ver mas</a>
+    </div>
+  </div>
+
+
+  <header>
+ 
+     <div class="contenedorarriba ancho">
+      <h1 class="morado">BINDAS</h1>
+      <i id="iconomenu" class="btn_menu morado fas fa-bars"></i>
+      <nav id="contenedormenu">
+        <ul>
+          <li><a href="#home" class="btn_ancla" id="subir">Home</a></li>
+          <li><a href="#about"class="btn_ancla">About</a></li>
+          <li><a href="#service"class="btn_ancla">Service</a></li>
+          <li><a href="#portafolio"class="btn_ancla">Portafolio</a></li>
+          <li><a href="#team"class="btn_ancla">Team</a></li>
+          <li><a href="#pricing"class="btn_ancla">Pricing</a></li>
+          <li><a href="#blog"class="btn_ancla">Blog</a></li>
+          <li><a href="#contact"class="btn_ancla">Contact</a></li>
+        </ul>
+      </nav>
+      
+     </div>
+     
+      
+     
+     
+
+    
+  </header>
+
+
+
+ 
+  <section class="contenedor_slide" id="home">
+    <ul class="rslides">
+      <li><img src="imagenes/slide1.jpeg" alt=""></li>
+      <li><img src="imagenes/slide2.jpeg" alt=""></li>
+      <li><img src="imagenes/slide3.jpeg" alt=""></li>
+    </ul>
+    <div class="filtromorado">
+      <h4 class="objeto1" >WE ARE THE MOST</h4>
+      <br>
+      <h2 >CREATIVE OUR BUSINESS <span class="morado"> TEAM</span></h2>
+      <br>
+      <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+        ultrices sapien vel quam luctus pulvinar.
+      </p>
+      <a href="#" class="btn_morado">READ MORE</a>
+      <a href="#" class="boton">CONTACT US</a>
+    </div>
+  </section>
+  <br>
+   <section class="contenedor_welcome ancho" id="about">
+    <div class="welcome ">
+ <article class="wow animate__animated animate__slideInLeft">
+      <h4 class="morado">WHO WE ARE</h4>
+      <br>
+      <h2>welcome to awards winning agency</h2>
+      <br>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia. </p>
+      <br>
+      <a class="btn_morado"id="btnclick" href="">read more</a>
+    </article>
+    <figure class="wow animate__animated animate__backInRight">
+      <img src="imagenes/about.jpg" alt="">
+    </figure>
+    </div>
+   
+  </section>
+  <br><br><br><br><br><br><br><br>
+      
+  <h2 class="wow titulos animate__animated animate__backInLeft" id="service">OUR <span class="morado">SERVICE</span></h2>
+  
+
+<p class="wow parrafos animate__animated animate__zoomIn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptas repellat earum iste in deserunt?</p>
+<div class="contenedor_linea">
+  <hr>
+<i class="fas fa-bars fa-2x"></i>
+  <hr>
+</div>
+<br>
+
+
+<section class="contenedor_our ancho" id="Service">
+  <article class="wow animate__animated animate__fadeInTopLeft">
+    <div class="iconocirculo">
+      <i class="fa-solid fa-desktop"></i>
+    </div>
+    <h2>GRAPHIC DESING</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi rerum iusto aperiam minus deleniti quae?</p>
+  </article>
+  <article class="wow animate__animated animate__fadeInUpBig ">
+    <div class="iconocirculo">
+      <i class="fa-solid fa-code"></i>
+    </div>
+    <h2>GRAPHIC DESING</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi rerum iusto aperiam minus deleniti quae?</p>
+  </article>
+  <article class="wow animate__animated animate__fadeInTopRight">
+    <div class="iconocirculo">
+      <i class="fa-sharp fa-solid fa-cubes"></i>
+    </div>
+    <h2>GRAPHIC DESING</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi rerum iusto aperiam minus deleniti quae?</p>
+  </article>
+  <article>
+    <div class="iconocirculo">
+      <i class="fa-regular fa-pen-to-square"></i>
+    </div>
+    <h2>GRAPHIC DESING</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi rerum iusto aperiam minus deleniti quae?</p>
+  </article>
+</section>
+<br><br>
+  <br><br><br><br><br>
+  <div id="portafolio">
+
+  </div>
+  <h2 class="wow titulos animate__animated animate__backInLeft" >OUR <span class="morado">PORTAFOLIO</span></h2>
+        
+      
+      <p class="wow parrafos animate__animated animate__zoomIn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptas repellat earum iste in deserunt?</p>
+      <div class="contenedor_linea">
+        <hr>
+<i class="fas fa-bars fa-2x"></i>
+        <hr>
+      </div>
+      <br>
+  <section class=" contenedor_imagenes ancho ">
+    <figure class="wow animate__animated animate__backInLeft">
+      <img src="imagenes/1.jpg" alt="">
+
+        <FIGcaption>
+          <P> WEB DESING</P>
+          
+          <div>
+            <a href="#"><i class="lupa fa-solid fa-magnifying-glass-plus"></i></a>
+            <a  href="#"><i class="cadena fa-solid fa-link"></i></a>
+          </div>
+         
+        </FIGcaption>
+     
+    </figure>
+    <figure class=" wow animate__animated animate__backInUp">
+      <img src="imagenes/2.jpg" alt="">
+
+        <FIGcaption>
+          <P> WEB DESING</P>
+          
+          <div class="iconoredes">
+            <a href="#"><i class="lupa fa-solid fa-magnifying-glass-plus"></i></a>
+            <a  href="#"><i class="cadena fa-solid fa-link"></i></a>
+          </div>
+         
+        </FIGcaption>
+     
+    </figure>
+    <figure class="wow animate__animated animate__backInRight">
+      <img src="imagenes/3.jpg" alt="">
+
+        <FIGcaption>
+          <P> WEB DESING</P>
+          
+          <div class="iconoredes">
+            <a href="#"><i class="lupa fa-solid fa-magnifying-glass-plus"></i></a>
+            <a  href="#"><i class="cadena fa-solid fa-link"></i></a>
+          </div>
+         
+        </FIGcaption>
+      </section>
+
+      <section class="contenedor_imagenes ancho">
+      </figure>
+      <figure class="wow animate__animated animate__backInRight">
+        <img src="imagenes/4.jpg" alt="">
+  
+          <FIGcaption>
+            <P> WEB DESING</P>
+            
+            <div class="iconoredes">
+              <a href="#"><i class="lupa fa-solid fa-magnifying-glass-plus"></i></a>
+              <a  href="#"><i class="cadena fa-solid fa-link"></i></a>
+            </div>
+           
+          </FIGcaption>
+       
+      </figure>
+      <figure class="wow animate__animated animate__backInLeft">
+        <img src="imagenes/5.jpg" alt="">
+  
+          <FIGcaption>
+            <P> WEB DESING</P>
+            
+            <div class="iconoredes">
+              <a href="#"><i class="lupa fa-solid fa-magnifying-glass-plus"></i></a>
+              <a  href="#"><i class="cadena fa-solid fa-link"></i></a>
+            </div>
+           
+          </FIGcaption>
+       
+      </figure>
+      <figure class="wow animate__animated animate__backInUp">
+        <img src="imagenes/6.jpg" alt="">
+  
+          <FIGcaption>
+            <P> WEB DESING</P>
+            
+            <div class="iconoredes">
+              <a href="#"><i class="lupa fa-solid fa-magnifying-glass-plus"></i></a>
+              <a  href="#"><i class="cadena fa-solid fa-link"></i></a>
+            </div>
+           
+          </FIGcaption>
+       
+      </figure>
+    
+      </section>
+<br><br><br><br><br>
+
+<section class="contenedor_parallaxs ">
+     <div class=contenedor_caracteristicas>
+<article>
+  <h2>380k</h2>
+  <h3>Expert employees</h3>
+</article>
+<article>
+  <h2>462k</h2>
+  <h3>our happy client</h3>
+</article>
+<article>
+  <h2>523k</h2>
+  <h3>Project Done</h3>
+</article>
+<article>
+  <h2>624k</h2>
+  <h3>Award Winner</h3>
+</article>
+     </div>  
+</section>
+
+<br><br><br><br>
+<h2 class="wow titulos animate__animated animate__backInLeft" id="team">OUR <span class="morado">TEAM</span></h2>
+        
+      
+<p class="wow parrafos animate__animated animate__zoomIn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptas repellat earum iste in deserunt?</p>
+<div class="contenedor_linea">
+  <hr>
+<i class="fas fa-bars fa-2x"></i>
+  <hr>
+</div>
+<br>
+      <section class="contenedor_team ">
+        <figure class="wow animate__animated animate__bounceInLeft">
+          <img class="filtro1" src="imagenes/team1.jpg" alt="">
+          <figcaption>
+            <h2>martha</h2>
+            <p>web designer</p>
+            <div class="iconoredes">
+              <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="wow animate__animated animate__bounceInLeft">
+          <img class="filtro1" src="imagenes/team2.jpg" alt="">
+          <figcaption>
+            <h2>fernanda</h2>
+            <p>web designer</p>
+            <div class="iconoredes">
+              <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class=" wow animate__animated animate__bounceInRight">
+          <img  class="filtro1" src="imagenes/team3.jpg" alt="">
+          <figcaption>
+            <h2>susana</h2>
+            <p>digital markete</p>
+            <div class="iconoredes">
+              <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class=" wow animate__animated animate__bounceInRight">
+          <img class="filtro1" src="imagenes/team4.jpg" alt="">
+          <figcaption>
+            <h2>juan pablo</h2>
+            <p>app developer</p>
+            <div class="iconoredes">
+              <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+    
+      </section>
+      <br><br><br>
+<h2 class="wow titulos animate__animated animate__backInLeft">OUR <span class="morado" id="pricing">PRICING</span></h2>
+        
+      
+<p class="wow parrafos animate__animated animate__zoomIn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptas repellat earum iste in deserunt?</p>
+<div class="contenedor_linea">
+  <hr>
+<i class="fas fa-bars fa-2x"></i>
+  <hr>
+</div>
+<br>
+
+<section class="contenedor_precios ancho">
+
+<article class="card">
+  <div class="categorias">
+    <h2>STANDART</h2>
+    <p>Lorem, ipsum dolor.</p>
+    </div>
+<div class="precio ">
+  <div class="costo">
+    <span>$</span>
+    <h2>10</h2>
+  </div>
+<hr class="linea">
+<h3>YEAR</h3>
+</div>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<br>
+<a href="#" class="btn_morado">sign  up</a>
+<br>
+</article>
+<article class="card">
+  <div class="categorias">
+    <h2>BUSSINES</h2>
+    <p>Lorem, ipsum dolor.</p>
+    </div>
+<div class="precio morado2">
+  <div class="costo">
+    <span>$</span>
+    <h2 >10</h2>
+  </div>
+<hr class="lineablanca">
+<h3>YEAR</h3>
+</div>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<br>
+<a href="#" class="btn_morado">sign  up</a>
+<br>
+</article>
+<article class="card">
+  <div class="categorias">
+    <h2>PREMIUM</h2>
+    <p>Lorem, ipsum dolor.</p>
+    </div>
+<div class="precio ">
+  <div class="costo">
+    <span>$</span>
+    <h2>10</h2>
+  </div>
+<hr class="linea">
+<h3>YEAR</h3>
+</div>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50 Email ACCOUNT</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<p class="bordes quitarborde"><i class="colormorado fa-solid fa-angles-right"></i> 50GB DISK SPACE</p>
+<br>
+<a href="#" class="btn_morado">sign  up</a>
+<br>
+</article>
+</section>
+      <br><br><br><br>
+      <section class="contenedor_parallaxs2 ">
+<div class="contenedor_fondo">
+<img src="imagenes/foto_mujer.jpeg" alt="foto de una mujer de ejemplo">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel modi quas distinctio libero. Aliquam eligendi praesentium reprehenderit quod ipsum sit sunt, delectus quidem accusantium tempore aliquid officia aperiam aut!</p>
+<h2>MISS ELINA POOL</h2>
+</div>
+      </section>
+     
+      
+      
+        <br><br><br>
+        <div class="fondogris" id="portafolio">
+        <h2 class="wow titulos animate__animated animate__backInLeft" >OUR<span class="morado" id="blog"> BLOG</span></h2>
+        <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+          ultrices sapien vel quam luctus pulvinar.</p>
+          <div class="contenedor_linea">
+            <hr>
+    <i class="fas fa-bars fa-2x"></i>
+            <hr>
+          </div>
+          <br>
+          <section class="contenedor_cuadros ancho">
+            
+          <article class="contenedor_blog wow animate__animated animate__backInLeft">
+  <figure >
+    <img src="imagenes/nosotros1.jpeg" alt="ejemplo de personas">
+<figcaption>
+
+</figcaption>
+  </figure>
+  <img class="fotito" src="imagenes/fotito2.png" alt="foto de una mujer">
+    <br>
+
+
+    <div class="titulo_abrir">
+      <h2>Latest trend in business</h2>
+      <i class="morado fa-solid fa-angle-down"></i>
+    </div>
+   <div class="infonoticias">
+
+    <div class="datos">
+      <i class="fa-solid fa-calendar-days"></i>
+      <p>june 30, 2022</p>
+      <i class="fa-solid fa-user"></i>
+      <p>admin</p>
+    </div>
+
+       
+          
+          
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+          
+          <a href="#">read more</a>
+          <i class="fa-solid fa-chevron-right"></i>
+   </div>
+   
+        </article>
+
+
+
+
+
+  <article class="contenedor_blog wow animate__animated animate__backInUp">
+
+  <figure >
+    <img src="imagenes/nosotros2.jpeg" alt="ejemplo de personas">
+<figcaption>
+
+</figcaption>
+  </figure>
+  <img class="fotito" src="imagenes/fotito1.png" alt="foto de una mujer">
+    <br>
+<div class="titulo_abrir">
+  <h2>Latest trend in business</h2>
+  <i class="morado fa-solid fa-angle-down"></i>
+</div>
+   
+    <div class="infonoticias">
+    <div class="datos">
+      <i class="fa-solid fa-calendar-days"></i>
+      <p>june 30, 2022</p>
+      <i class="fa-solid fa-user"></i>
+      <p>admin</p>
+    </div>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+          
+          <a href="#">read more</a>
+          <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </article>
+
+
+
+
+
+        <article class="contenedor_blog wow animate__animated animate__backInRight">
+  <figure class="">
+    <img src="imagenes/nosotros3.jpeg" alt="ejemplo de personas">
+<figcaption>
+
+</figcaption>
+  </figure>
+  <img class="fotito" src="imagenes/fotito2.png" alt="foto de una mujer">
+    <br>
+    <div class="titulo_abrir">
+      <h2>Latest trend in business</h2>
+      <i class="morado fa-solid fa-angle-down"></i>
+    </div>
+   <div class="infonoticias">
+
+ 
+    <div class="datos">
+      <i class="fa-solid fa-calendar-days"></i>
+      <p>june 30, 2022</p>
+      <i class="fa-solid fa-user"></i>
+      <p>admin</p>
+    </div>
+
+       
+          
+          
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+          
+          <a href="#">read more</a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        </article>
+      </div>
+      </section>
+      <br><br><br><br>
+
+
+      <h2 class="wow titulos animate__animated animate__backInLeft" id="contact">OUR <span class="morado">CONTACT</span></h2>
+        
+      
+      <p class="wow parrafos animate__animated animate__zoomIn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptas repellat earum iste in deserunt?</p>
+      <div class="contenedor_linea">
+        <hr>
+<i class="fas fa-bars fa-2x"></i>
+        <hr>
+      </div>
+      <br><br><br><br>
+
+
+     <section class="contenedor_todo ancho">
+      
+      <article class="contenedor_direcciones">
+<h2>Head Office</h2>
+<div class="infodirecciones">
+<div class="circulo">
+  <i class="fa-solid fa-house"></i>
+</div>
+
+<p>Newport News, VA 23601</p>
+</div>
+<div class="infodirecciones">
+<div class="circulo">
+  <i class="fa-solid fa-phone"></i>
+</div>
+<p>Newport News, VA 23601</p>
+</div>
+<div class="infodirecciones">
+<div class="circulo">
+ <i class="fa-solid fa-link"></i>
+</div>
+<p>Newport News, VA 23601</p>
+</div>
+<div class="infodirecciones">
+<div class="circulo">
+  <i class="fa-solid fa-envelope"></i>
+</div>
+<p>Newport News, VA 23601</p>
+</div>
+      </article>
+      <br><br>
+     
+        <form action="formulario.php" class="ancho" method="post">
+          <div class="formulario">
+            <input class="nombre"  type="text" placeholder="Name" name="nombre">
+            <input class="subject"  type="text" placeholder="apellido" name="apellido">
+          </div>
+         <br>
+          <input class="gmail" type="text" placeholder="Email" name="email">
+          <br><br>
+          <textarea placeholder="Your message" name="comentarios"></textarea>
+          <br><br>
+          <div class=" boton">
+            <button class="btn_morado">send message</button>
+          </div>
+          
+        </form>
+      
+     
+     </section>
+     <br><br><br><br>
+     <footer>
+      <h4>Copyright © by Bindas 2022 | All Rights Reserved</h4>
+     </footer>
+
+
+
+
+
+<!-- funciones de javascript -->
+
+<script>
+    // menu
+    $("#iconomenu").click(function () {
+      $("#contenedormenu").toggleClass("abrirmenu")
+    })
+
+   // Funcion para el boton subir
+   $("#subir").click(function () {
+      $("html,body").animate(
+        {
+          scrollTop: "0px",
+        },
+        1000
+      );
+    });
+
+//modal
+ $("#btnclick").click(function () {
+      $("#todomodal").css("display", "flex");
+    });
+
+    $("#cerrar").click(function () {
+      $("#todomodal").css("display", "none");
+    });
+
+    $("#cambiarcolor").click(function () {
+      $(".contenedormodal").css("padding", "100px");
+    })
+  // acordeon
+  $(".titulo_abrir").click(function () {
+      var este_elemento = $(this);
+      var activar = este_elemento.next();
+      activar.slideToggle();
+    })
+
+
+  //  <!-- javascript slide fotos -->
+    $(function() {
+      $(".rslides").responsiveSlides();
+    });
+
+  // <!-- script para animaciones -->
+
+    new WOW().init();
+     // Funcion para desplazamiento de los vinculos
+     $(".btn_ancla").click(function () {
+      var ancla = $(this).attr("href");
+      $("html,body").animate(
+        {
+          scrollTop: $(ancla).offset().top,
+        },
+        1000
+      );
+      $("#contenedormenu").toggleClass("abrirmenu");
+    });
+
+    </script>
+</body>
+</html>
