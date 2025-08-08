@@ -625,20 +625,20 @@
       </article>
       <br><br>
      
-        <form action="formulario.php" class="ancho" method="post">
+        <form action="formulario.php" class="ancho contact-form" method="post">
           <div class="formulario">
-            <input class="nombre"  type="text" placeholder="Name" name="nombre">
-            <input class="subject"  type="text" placeholder="apellido" name="apellido">
+            <input class="nombre" type="text" placeholder="Name" name="nombre" required>
+            <input class="subject" type="text" placeholder="Apellido" name="apellido" required>
           </div>
          <br>
-          <input class="gmail" type="text" placeholder="Email" name="email">
+          <input class="gmail" type="email" placeholder="Email" name="email" required>
           <br><br>
-          <textarea placeholder="Your message" name="comentarios"></textarea>
+          <textarea placeholder="Your message" name="comentarios" required></textarea>
           <br><br>
-          <div class=" boton">
-            <button class="btn_morado">send message</button>
+          <div class="boton">
+            <button class="btn_morado" type="submit">send message</button>
           </div>
-          
+
         </form>
       
      
