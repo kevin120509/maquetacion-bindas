@@ -760,36 +760,51 @@ margin-right: 15px;
  
 }
 form{
- 
+
   width: 700px;
- height: 300px;
+  height: 300px;
+}
+.contact-form{
+  max-width: 700px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 .formulario{
   margin: auto;
   text-align: center;
-  
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
- 
+
+  gap: 10px;
 }
 .formulario .nombre{
   border: 1px gainsboro solid;
   padding: 7px;
- width: 40%;
- margin-left: 8px;
+  width: 40%;
+  margin-left: 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 .formulario .subject{
   border: 1px gainsboro solid;
   padding: 7px;
- width: 40%;
- margin-right: 8px;
+  width: 40%;
+  margin-right: 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 .gmail{
   width: 98%;
   padding: 7px;
   border: 1px gainsboro solid;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 textarea{
   width: 98%;
@@ -797,6 +812,8 @@ textarea{
   border: 1px gainsboro solid;
   padding: 5px;
   font-family: helvetica;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 .boton{
  text-align: center;
